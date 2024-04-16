@@ -5,6 +5,7 @@ body {
     justify-content: space-between;
     margin: 0;
     padding: 0;
+    color: white;
 }
 
 button {
@@ -20,7 +21,7 @@ button {
     background-color: #5196A6;
     display: flex;
     justify-content: space-between;
-    padding: 10px 90px;
+    padding: 20px 90px;
 }
 
 .logo {
@@ -34,6 +35,7 @@ button {
 
 .header-links a {
     text-decoration: none;
+    color: white;
 }
 
 .top {
@@ -46,7 +48,7 @@ button {
 }
 
 .top-text {
-    width: 400px;
+    width: 500px;
 }
 
 .itinerary {
@@ -55,7 +57,7 @@ button {
 }
 
 .map img {
-    width: 400px;
+    width: 500px;
 }
 
 .random {
@@ -64,6 +66,7 @@ button {
 
 .random h2 {
     text-align: center;
+    color: #F2594B;
 }
 
 .images {
@@ -111,18 +114,42 @@ button {
 }
 
 .cta {
+    align-self: center;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+    max-width: 900px;
     background-color: #F2594B;
     border-radius: 10px;
-    margin: 20px 20px;
+    margin: 40px 90px;
+    padding: 20px 60px;
+    font-weight: lighter;
+}
+
+.cta-text {
+    width: 600px;
+}
+
+#cta-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: -10px;
 }
 
 .cta button {
     background-color: #F2594B;
+    text-wrap: nowrap;
+    border: 2px solid white;
+    padding-left: 30px;
+    padding-right: 30px;
+
 }
 
 .footer {
     background-color: #5196A6;
+    padding: 30px 90px;
+    text-align: center;
+    font-weight: 200;
 }
 
